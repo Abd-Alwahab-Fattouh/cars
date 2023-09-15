@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cars" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorAccent">@color/toolbarcolor</item>
+        <item name="colorPrimaryDark">#1AFF0707</item>
+    </style>
+
+    <style name="Theme.Cars" parent="Base.Theme.Cars" >
+        <item name="colorPrimary">@color/toolbarcolor</item>
+        <item name="colorAccent">#223C8A</item>
+        <item name="colorPrimaryDark">#33FFC107</item>
+    </style>
+
+
+
+</resources>
