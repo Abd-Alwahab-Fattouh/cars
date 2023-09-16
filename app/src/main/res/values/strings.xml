@@ -5,4 +5,7 @@
     <string name="dpl">dpl</string>
     <string name="description">description</string>
     <string name="add_new_car">ADD NEW CAR</string>
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+    <string name="edit">edit</string>
 </resources>

@@ -28,12 +28,13 @@
                 android:scaleType="centerCrop"
                 android:fitsSystemWindows="true"
                 app:layout_collapseMode="parallax"
-                app:layout_collapseParallaxMultiplier="0.5"/>
+                app:layout_collapseParallaxMultiplier="0.5"
+                android:id="@+id/view_car_iv"/>
             <androidx.appcompat.widget.Toolbar
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:id="@+id/My_Toolbar"
+                android:id="@+id/details_Toolbar"
                 app:layout_collapseMode="pin"
                 />
         </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -60,7 +61,7 @@
                     android:layout_height="48dp"
                     android:layout_weight="1"
                     android:hint="@string/model"
-                    android:id="@+id/view_car_mode"
+                    android:id="@+id/view_car_tv_model"
                     />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -72,7 +73,7 @@
                     android:layout_height="50dp"
                     android:layout_weight="1"
                     android:hint="@string/color"
-                    android:id="@+id/view_car_color"
+                    android:id="@+id/view_car_tv_color"
                     />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -85,7 +86,7 @@
                     android:layout_height="50dp"
                     android:layout_weight="1"
                     android:hint="@string/dpl"
-                    android:id="@+id/view_car_dpl"
+                    android:id="@+id/view_car_tv_dpl"
                     />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -98,7 +99,7 @@
                     android:layout_height="50dp"
                     android:layout_weight="1"
                     android:hint="@string/description"
-                    android:id="@+id/view_car_description"
+                    android:id="@+id/view_car_tv_description"
                     />
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
